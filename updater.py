@@ -51,6 +51,6 @@ def run_updater():
                                f"A newer version is available:\n"
                                f"Current: v{VERSION}\nLatest: v{latest}\n\n"
                                f"Open releases page?"):
-            webbrowser.open(f"https://github.com/{GITHUB_OWNER}/{GITHUB_REPO}/releases/latest")
+            webbrowser.open(f"https://github.com/Fractured-Systems-Integration/ProjectInsight.git")
     else:
         messagebox.showinfo("Up to Date", f"You are on the latest version (v{VERSION}).")
