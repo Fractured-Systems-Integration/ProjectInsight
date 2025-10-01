@@ -1,5 +1,5 @@
 APP_NAME = "FSI Insight"
-VERSION = "1.5"
+VERSION = "1.6"
 
 GITHUB_OWNER = "Fractured-Systems-Integration"
 GITHUB_REPO = "ProjectInsight"
