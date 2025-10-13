@@ -1,0 +1,12 @@
+interval_seconds: 30
+sqlite_path: "insight.db"
+retention_days: 14
+
+# ready for Core later; leave disabled now
+enable_http: false
+http_endpoint: "https://core.example.com/api/ingest"
+device_token: ""
+
+tags:
+  site: "HQ"
+  env: "prod"
